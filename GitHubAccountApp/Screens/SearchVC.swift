@@ -40,6 +40,7 @@ class SearchVC: UIViewController {
 //        if let redirectUrl = URL(string: "https://mobile.optima24.kg/payments/payment-create?serviceId=f23a5b24-44dc-11ef-9348-0242ac11001f&requisites=996550646493&amount=123.0") {
 //            UIApplication.shared.open(redirectUrl, options: [:], completionHandler: nil)
 //        }
+        
         guard isUserNameEntered else {
             print("No username")
             return
